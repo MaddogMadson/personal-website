@@ -7,10 +7,11 @@ html {
 }
 
 header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
+ 	position: fixed;
+	background: white;
+	width: 100%;
+	top: 0;
+	left: 0;
 }
 #brand {
   float: left;
@@ -27,8 +28,6 @@ header {
 }
 .home_nav {
   float: right;
-  margin-right: 1em;
-  margin-bottom: 100em;
 }
 .home_nav ul {
   list-style-type: none;
@@ -36,23 +35,26 @@ header {
   padding: 2.2em 2em;
 }
 .home_nav ul li {
-  display: inline;
-  padding: 0 .4em;
-  margin-right: 3em;
+	background: WhiteSmoke;
+	border: 1px solid Gainsboro;
+	border-radius: 4px;
+	display: inline;
+	padding: 1em;
+}
+.home_nav ul li:hover{
+	text-decoration: none;
+	text-transform: uppercase;
+	background: white;
+	font-color:black;
+	border: 2px solid grey;
 }
 .home_nav ul li a {
   color: #333;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1em;
-  padding-bottom: .5em;
-  transition: .5s color;
 }
-.home_nav ul li a:hover {
-  border-bottom: 3px solid #333;
-  color: DodgerBlue;
-  text-shadow: .01em .01em .03em navy;
-}
+
 #navbar_bottom_gap{
   width: 100%;
   height: 2em;
@@ -84,38 +86,6 @@ header {
 }
 #dev li{
 	padding-bottom: 5px;
-}
-
-.quotation{
-	font-size: 25px;
-	text-align: center;
-	//margin: 0 auto;
-	quotes: "\201C""\201D""\2018""\2019";
-	padding: 10px 20px;
-	line-height: 1.4;
-}
-
-.quotation:before {
-	content: open-quote;
-	display: inline;
-	height: 0;
-	line-height: 0;
-	left: -10px;
-	position: relative;
-	top: 25px;
-	color: #ccc;
-	font-size: 3em;
-}
-.quotation::after {
-	content: close-quote;
-	display: inline;
-	height: 0;
-	line-height:0;
-	left: 15px;
-	position: relative;
-	top: 25px;
-	color: #ccc;
-	font-size: 3em;
 }
 .page_content{
   margin-top: 5em;
