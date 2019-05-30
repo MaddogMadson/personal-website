@@ -12,7 +12,9 @@ header {
 	width: 100%;
 	top: 0;
 	left: 0;
+	display: inline;
 }
+
 #brand {
   float: left;
   font-size: 2em;
@@ -22,87 +24,61 @@ header {
   color: #333;
   transition: .5s all;
 }
-#brand:hover {
-  color: #FFFFFF;
-  background-color: #333;
-}
+	#brand:hover {
+	  color: #FFFFFF;
+	  background-color: #333;
+	}
 .home_nav {
-  float: right;
+  float: center;
 }
-.home_nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 2.2em 2em;
-}
-.home_nav ul li {
-	background: WhiteSmoke;
-	border: 1px solid Gainsboro;
-	border-radius: 4px;
-	display: inline;
-	padding: 1em;
-	
-}
-.home_nav ul li:hover{
-	text-decoration: none;
-	text-transform: uppercase;
-	background: white;
-	font-color:black;
-	border: 2px solid grey;
-}
-.home_nav ul li a {
-  color: #333;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1em;
-}
-
-#navbar_bottom_gap{
-  width: 100%;
-  height: 2em;
-}
-.blurb{
-	text-align: center;
-  margin-bottom: 3em;
-}
-.homepage{
-	width: 100%
-	height: 100%;
-	text-align: center;
-	padding: 12.5%
-}
-
-#dev{
-	width: 45%; 
-	height: 50%; 
-	float: left;
-	padding-left: 25px;
-	margin: 5px;
-	border: solid;
-	border-width: 1px;
-	border-radius: 10px;
-	box-shadow: 2px 2px 2px black;
-}
-#dev ul{
-	height: 50px;
-	display: block;
-}
-#dev li{
-	padding-bottom: 5px;
-}
+	.home_nav ul {
+	  list-style-type: none;
+	  padding: 1em;
+	 
+	}
+		.home_nav ul li {
+			border-radius: 4px;
+			display: inline;
+			padding: 1em;
+		}
+			.home_nav ul li:hover{
+				text-decoration: none;
+				text-transform: uppercase;
+				background: white;
+				font-color:black;
+				border: 2px solid grey;
+			}
+				.home_nav ul li a {
+				  color: #333;
+				  text-decoration: none;
+				  text-transform: uppercase;
+				  font-size: 1em;	
+				  display: inline-block;     
+				  position: relative;    
+				  z-index: 1;     
+				  padding: 2em;     
+				  margin: -2em; 
+				}
+				#navbar_bottom_gap{
+				  width: 100%;
+				  height: 1em;
+				}
 .page_content{
   margin-top: 5em;
 }
-.page_header{
-  text-align:center;
-  font-size: 2em;
-}
-
-#page_gap{
-  height: .05em;
-  margin-top: -1em;
-  width: 20em;
-}
-
+	.page_header{
+	  text-align:center;
+	  font-size: 2em;
+	}
+	.blurb{
+		text-align: center;
+		margin-bottom: 3em;
+	}
+	#page_gap{
+	  height: .05em;
+	  margin-top: -1em;
+	  width: 20em;
+	}
 .feedback{
   box-shadow: 0px 0px 5px -2px;
   width: 45%;
@@ -110,45 +86,46 @@ header {
   padding-left: 1em;
   padding-bottom: 1em;
   float: left;
+  color: black;
 }
+	.feedback h3{
+	  text-align: center;
+	}
+	.submit{
+	  margin-top: 5px;
+	  box-shadow: 1px 1px 2px 0px;
+	  border-radius: 1px;
+	  width: 20%;
+	}
 
-.feedback h3{
-  text-align: center;
-}
-.submit{
-  margin-top: 5px;
-  box-shadow: 1px 1px 2px 0px;
-  border-radius: 1px;
-  width: 20%;
-}
 table{
   border-collapse: seperate;
 }
-.resumeHeader{
-  font-size: 24px;
-  padding-top: 2em;
-  text-decoration: underline;
-  text-decoration-color: grey;
-}
-.right{
-  padding-left: 10px;
-  border-left: .5px dashed black;
-}
+	.resumeHeader{
+	  font-size: 24px;
+	  padding-top: 2em;
+	  text-decoration: underline;
+	  text-decoration-color: grey;
+	}
+	.right{
+	  padding-left: 10px;
+	  border-left: .5px dashed black;
+	}
 
-.role{
-  border-collapse: seperate;
-  font-size: 18px;
-  padding-top: 50px;
-}
-.hiddenList{
-  list-style-type:none;
-  text-align: left;
-  padding-left: 10px;
-}
+	.role{
+	  border-collapse: seperate;
+	  font-size: 18px;
+	  padding-top: 50px;
+	}
+	.hiddenList{
+	  list-style-type:none;
+	  text-align: left;
+	  padding-left: 10px;
+	}
 
-.hidden{
-  color: white;
-}
-.roleDescription{
-  font-size: 16px;
-}
+	.hidden{
+	  color: white;
+	}
+	.roleDescription{
+	  font-size: 16px;
+	}
