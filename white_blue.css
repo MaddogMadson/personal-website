@@ -41,7 +41,7 @@ nav{
 			}
 
 .page_content{
-	padding: 5em 2em 0em 2em;
+	padding: 4em 2em 0em 2em;
 }
 	.page_header{
 		text-align:center;
@@ -59,25 +59,42 @@ nav{
 		margin-top: -1em;
 		width: 20em;
 	}
+.contact{
+  float: right;
+  margin-right:3em;
+  width: 30%;
+}
+.contact h3, .feedback h3{
+  text-align: center;
+}
+.contact li{
+  margin-bottom: 1em;
+}
 .feedback{
 	width: 50%;
-	margin: auto;
-	margin-top: 1em;
 	box-shadow: 0em 0em .3em -.2em;
-	padding: .25em 0em 1em 1em;
-	float: center;
-	color: black;
+	padding: 0em 1em 1em 1em;
+	float: left;
+  margin-left: 4em;
 }
-	.feedback h3{
-		text-align: center;
-	}
+fieldset{
+  border-radius: .1em;
+  border: .3em solid WhiteSmoke;
+}
+legend{
+  background-color: Gainsboro;
+  border: .1em solid WhiteSmoke;
+  border-radius: .1em;
+  padding: .2em;
+  text-align: center;
+}
 	.submit{
 		margin-top: 5px;
 		box-shadow: 1px 1px 2px 0px;
 		border-radius: 1px;
 		width: 20%;
 	}
-
+  
 table{
 	border-collapse: seperate;
 }
