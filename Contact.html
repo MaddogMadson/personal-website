@@ -6,62 +6,55 @@
 	</head>
 	<body>
 		<header>
-			<p id="brand"><span style = "color: MediumBlue">Zeko</span><span style = "color: DodgerBlue">Design</span></p>	
-			<nav class="home_nav">
+			<nav>
 				<ul>
 					<li><a href="Homepage.html">Home</a></li>
-					<li><a href="AboutMe.html">About Zeko</a></li>
 					<li><a href="Resume.html">Resume</a></li>
 					<li><a href="Portfolio.html">Portfolio</a></li>
 					<li><a href="Contact.html">Contact Info</a></li>
 				</ul>
 			</nav>
 		</header>
-		<section id="navbar_bottom_gap"></section>
 		<section class="page_content">
 			<p class="page_header">Contact Me</p>
 			<hr id="page_gap">
-			<blockquote class="blurb">
-				"Never half-ass two things. Whole-ass one thing."
-				<footer>— Ron Swanson</footer>
-			</blockquote> 
-			<article class="feedback">
-				<h3> Contact Information</h3>
-					<ul>
-						<li>Email: <a href="mailto:zekomadsondesign@gmail.com">zekomadsondesign@gmail.com</a></li> 
-						<br />
-						<li>Social Media:
-							<ul>
-								<li>LinkedIn: <a href="https://www.linkedin.com/in/zach-madson-02b67610b/">Zach Madson</a></li>
-								<li>GitHub: <a href="https://github.com/MaddogMadson">MaddogMadson </li>
-							</ul>
+			<p class="blurb">Have a suggestion? Want to get in touch? <br /> Here's how!</p>
+      <section class="page_content">
+			<article class="contact">
+					<h3> Contact Information</h3>
+					<ul class="hiddenList">
+						<li>Email:<br /> <a href="mailto:zekomadsondesign@gmail.com">zekomadsondesign@gmail.com</a></li> 
+						<li>LinkedIn:<br /> <a href="https://www.linkedin.com/in/zach-madson-02b67610b/">Zach Madson</a></li>
+						<li>GitHub:<br /><a href="https://github.com/MaddogMadson">MaddogMadson</a> </li>
 						</li>	
 					</ul>
+				</fieldset>
 			</article>
 			<article class="feedback">
-				<h3>Provide Feedback</h3> <!-- Contact Information -->
-				<form action="websiteURL_tbd.php"> <!-- text input: Name -->
-					<p>Name:
-						<input type="text" name="name" size="15" maxlength="20" />
-					</p>
-					<p>Email:
-						<input type="text" name="email" size="30" maxlength="50" />
-					</p>
-					<p>How would you rate the website: 
-					<br />
-					<input type="radio" name="experience" value="1" />1 - Excellent
-					<br />
-					<input type="radio" name="experience" value="2" />2 - Good
-					<br />
-					<input type="radio" name="experience" value="3" />3 - Fine
-					<br />
-					<input type="radio" name="experience" value="4" />4 - Needs Improvement
-					<br />
-					<input type="radio" name="experience" value="5" />5 - Dull
-					</p>
-					<textarea name="criticism" cols="40" rows="5">Include any constructive criticism...</textarea>
-					<input type="submit" value="Submit" />
-				</form>
+				<h3>Feedback</h3>
+				<fieldset>
+					<form action="websiteURL_tbd.php"> <!-- text input: Name -->
+						<p>Name:
+							<input type="text" name="name" size="15" maxlength="20" />
+						</p>
+						<p>Email:
+							<input type="text" name="email" size="30" maxlength="50" />
+						</p>
+						<p>How would you rate the website: 
+						<br />
+						<input type="radio" name="experience" value="1" />1 - Excellent
+						<input type="radio" name="experience" value="2" />2 - Good
+						<input type="radio" name="experience" value="3" />3 - Fine
+						<input type="radio" name="experience" value="4" />4 - Needs Improvement
+						<input type="radio" name="experience" value="5" />5 - Dull
+						<br />
+						<br />
+						<textarea name="criticism" cols="40" rows="5">Include any constructive criticism...</textarea>
+						<br />
+						<input type="submit" value="Submit" />
+						</p>
+					</form>
+				</fieldset>
 			</article>
 		</section>
 	</body>
